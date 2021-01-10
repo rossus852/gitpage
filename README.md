@@ -8,10 +8,10 @@
   
       + Nếu dữ liệu bị rỗng là các biến định luợng thì thay thế bằng giá trị trung vị hoặc trung bình, còn biến phân loại thì thay thế bằng giá trị xuất hiện nhiều nhất.
   - Sau đó thống kê mô tả dữ liệu. (dùng hàm describe).
-  - Sau đó phân tích dữ liệu: Phân tích trực quan các biến định lượng dùng histogram. Phân tích trực quan các biến phân loại dùng count plot, bar plot... Phân tích trực quan sự tương quan giữa các biến định lượng dùng scatter plot, joint plot. Phân tích trực giữa biến định luợng và phân loại dùng box plot.
+  - Sau đó phân tích các biến dữ liệu, sự tương quan giữa các biến dữ liệu với nhau.
   - Từ biểu đồ rút ra kết luận và định ra các dự báo.
 
-  Việc thực hiện EDA sử dụng trực quan dữ liệu, với thư viện seaborn:
+  Khi thực hiện phân tích các biến dữ liệu:
 
   - Phân tích trực quan các biến định lượng dùng histogram.
   - Phân tích trực quan các biến phân loại dùng count plot.
